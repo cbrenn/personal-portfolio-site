@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+
+@media only screen and (orientation: landscape) {
+    .mobile {
+        disply:flex;
+        flex-direction: column;
+        width:1;
+      }
+      h1{
+        align-text:right;
+      }
+}
+
+body{
+font-family: 'IBM Plex Mono', monospace;
+display: grid;
+font-weight:bold;
+background-color: white;
+}
+
+
+.parallax {
+    /* The image used */
+
+background-image: url('../images/background3.jpg');
+    /* Set a specific height */
+    height: 500px;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+  width: 100%
+  margin: 10%
+}
+
+
+.nav-header{
+  display:flex;
+  flex-flow: row;
+  justify-content: space-around;
+  background-color: #ffdab9;
+
+  position:fixed;
+  top:0;
+  width:100%
+
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul a{
+  text-decoration: none;
+}
+
+.nav-header li{
+  align-self: center;
+  text-align: center;
+  color:#dab9ff;
+}
+
+.nav-header li a:visited{
+  color:#005253;
+}
+
+li{
+  list-style-type: none;
+}
+
+h1{
+  text-align: right;
+  text-decoration-style: double;
+  font-size: 7.77em;
+  margin: 1em .1em 1em .5em
+}
+
+
+
+#tagline{
+  font-size: 2em;
+  text-align: center;
+  margin: 1em;
+}
+main.site-container{
+  width:100%;
+}
+article{
+display:flex;
+justify-content: space-around;
+margin: 1;
+align-content: center;
+}
+
+
+h2{
+  text-align: center
+}
+
+.article-item{
+  font-size: 2em;
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+  margin:2em;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
+
+.article-item h2{
+  margin:1em;
+}
+
+.sub-article-item{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+
+footer ul{
+  display:flex;
+  justify-content: flex-end;
+  text-align: center;
+
+}
+
+footer img{
+  max-height: 20px
+}
+
+footer li{
+  margin: 0.3em
+}
